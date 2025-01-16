@@ -8553,72 +8553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 166.37 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ce7cccd-046a-4b25-bffe-82be19f3c39c")
-		(property "Reference" "#PWR02"
-			(at 166.37 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 166.37 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c966081e-8afa-4ce6-83c1-5d61bbf37aee")
-		)
-		(instances
-			(project ""
-				(path "/ad38e70e-60ef-4ddc-acc0-6f79d4a0acde/3410d300-066b-4c63-a0ba-1f479d572e5e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
 		(at 137.16 48.26 0)
 		(unit 1)
@@ -8748,6 +8682,71 @@
 			(project "min68k"
 				(path "/ad38e70e-60ef-4ddc-acc0-6f79d4a0acde/3410d300-066b-4c63-a0ba-1f479d572e5e"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "834b0002-3e81-410b-8efa-e05aaa2163b4")
+		(property "Reference" "#PWR02"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.814 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1776f60d-fd29-48b8-9f4d-bbe7cf0e76a8")
+		)
+		(instances
+			(project "min68k"
+				(path "/ad38e70e-60ef-4ddc-acc0-6f79d4a0acde/3410d300-066b-4c63-a0ba-1f479d572e5e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
