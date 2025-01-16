@@ -6128,6 +6128,18 @@
 		)
 		(uuid "2bc1b5d9-c946-4654-a9b9-096d69ff7c14")
 	)
+	(text "JP1\n1-2	pin 30 is Vcc\n	28-pin DIP\n	32-pin DIP ≤ 2 Mbit\n2-3	pin 30 is A19\n	32-pin DIP > 2 Mbit"
+		(exclude_from_sim no)
+		(at 116.586 55.118 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56596a71-dee0-4de1-97e6-461176c48a43")
+	)
 	(text "Bank 1"
 		(exclude_from_sim no)
 		(at 155.194 96.012 0)
